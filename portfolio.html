@@ -8,76 +8,85 @@ and open the template in the editor.
 
 <head>
     <title>Portfolio</title>
-    <meta charset="windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Scott McAnally</a>
-            </ul>
-        </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About |</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio |</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
+    <div class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="navbar-toggle toggle w-100 order-1 order-sm-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Scott McAnally</a>
+                    </li>li
+                </ul>
+            </div>
+            <div class="navbar-toggle toggle w-100 order-3 d-flex mr-236px">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="container" width="960px">
         <h1>Portfolio</h1>
         <div class="row">
-            <div class="col-sm-6 uno">
-                <img src="images/uno.png" class="rounded floated left" alt="...">
-                <h3>Uno</h3>
-                <img src="images/monopoly.jpg" class="rounded float-left" alt="...">
-                <h3>Monopoly</h3>
+            <div class="col-sm-6">
+                <div class="image-container">
+                    <img src="images/hex.jpeg" alt="...">
+                    <h3 class="image-text">Hex</h3>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="image-container">
+                    <img src="images/mario.jpeg" alt="...">
+                    <h3 class="image-text">Mario</h3>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <img src="images/chess.png" class="rounded float-left" alt="...">
-                <h3>Chess</h3>
-                <img src="images/yahtzee.jpg" class="rounded float-left" alt="...">
-                <h3>Yahtzee</h3>
+                <div class="image-container">
+                    <img src="images/tictactoe.png" alt="...">
+                    <h3 class="image-text">TicTacToe</h3>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="image-container">
+                    <img src="images/pacman.png" alt="...">
+                    <h3 class="image-text">Pacman</h3>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <img src="images/Tictactoe.jpg" class="rounded float-left" alt="...">
-                <h3>TicTacToe</h3>
+                <div class="image-container">
+                    <img src="images/uno.jpeg" alt="...">
+                    <h3 class="image-text">Uno</h3>
+                </div>
             </div>
         </div>
-
     </div>
 
-
-
-        <footer class="page-footer font-small blue fixed-bottom">
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3"> 2018 Copyright �
-                <a href="https://mdbootstrap.com/bootstrap-tutorial/"></a>
+    <footer class="footer">
+            <div class="container-footer">
+                <p class="text-center">Copyright</p>
             </div>
-            <!-- Copyright -->
-
-        </footer>
-    <!-- Footer -->
+    </footer>
 </body>
 
 </html>
